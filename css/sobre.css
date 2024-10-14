@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #header{
@@ -35,7 +36,7 @@ body{
 }
 
 #menu-itens{
-    flex: 1;
+    flex: 0.5;
 }
 
 #lista-nav{
@@ -54,31 +55,32 @@ body{
 }
 
 #footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
     background-color: rgb(58, 58, 56);
-    width: 100%;
 }
 
 #direitos{
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 footer{
     display: flex;
     justify-content: center;
+    font-family: none;
 }
 
 .menu-letters {
     margin-right: 30px;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .menu-letters:hover {
-    color: yellow;
+    color: rgb(255, 22, 22);
     transition: 1s;
 }
 
@@ -115,4 +117,10 @@ footer{
         opacity: 1;
         width: 45%;
     }
+}
+
+#introletter{
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
 }
