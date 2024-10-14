@@ -25,7 +25,7 @@ body{
 }
 
 #menu-itens{
-    flex: 1;
+    flex: 0.5;
 }
 
 #lista-nav{
@@ -33,7 +33,6 @@ body{
     flex-direction: row;
     align-content: center;
     justify-content: center;
-
 }
 
 #main{
@@ -100,21 +99,23 @@ footer{
 
 .menu-letters {
     margin-right: 30px;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .menu-letters:hover {
-    color: yellow;
+    color: rgb(255, 22, 22);
     transition: 1s;
 }
 
 article{
     font-size: 25px;
     color: rgb(36, 33, 33);
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .art-img{
@@ -129,6 +130,7 @@ background-color: rgb(58, 58, 56);
 #wellcome{
     font-size: 30px;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
 #button{
@@ -146,6 +148,11 @@ background-color: rgb(58, 58, 56);
     color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
+}
+
+#buttontext:hover{
+    color:  rgb(255, 22, 22);
+    transition: 1s;
 }
 
 #buttonposition{
