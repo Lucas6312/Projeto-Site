@@ -47,25 +47,6 @@ body{
 
 }
 
-
-#footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 90px;
-    background-color: rgb(58, 58, 56);
-}
-
-#direitos{
-    color: white;
-    font-size: 15px;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    font-family: none;
-}
-
 .menu-letters {
     margin-right: 30px;
     font-size: 25px;
@@ -149,3 +130,39 @@ footer{
     margin-left: 90px;
     font-size: 20px;
 } 
+
+footer {
+	background-color: rgb(58, 58, 56);
+	color: #fff;
+	padding: 05px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+}
+
+#rights{
+    font-size: 15px;
+}
+
+.footnav{
+    font-size: 15px;
+}
+
+.footnav:hover {
+    color: rgb(255, 22, 22);
+    transition: 1s;
+}
